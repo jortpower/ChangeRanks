@@ -38,4 +38,32 @@ public enum Ranks {
 
         return null;
     }
+
+    public static String getRankColor(int id) {
+        switch (id) {
+            case 0:
+                return Colorize.translateColorCodes("&7");
+            case 1:
+                return Colorize.translateColorCodes("&a");
+            case 2:
+                return Colorize.translateColorCodes("&6");
+            case 3:
+                return Colorize.translateColorCodes("&9 ");
+            case 4:
+                return Colorize.translateColorCodes("&1");
+            case 5:
+                return Colorize.translateColorCodes("&5");
+            case 6:
+                return Colorize.translateColorCodes("&2");
+            case 7:
+                return Colorize.translateColorCodes("&1");
+            case 8:
+                return Colorize.translateColorCodes("&4");
+            case 9:
+                return Colorize.translateColorCodes("&c");
+        }
+
+        return null;
+    }
+
 }
