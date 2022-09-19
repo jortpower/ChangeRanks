@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChangeRanks:jar">
+    <output-path>$PROJECT_DIR$/../../multicraft/data/servers/server1/plugins</output-path>
+    <root id="archive" name="ChangeRanks.jar">
+      <element id="module-output" name="ChangeRanks" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Plugin dependecies/spigot-api-1.19.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
